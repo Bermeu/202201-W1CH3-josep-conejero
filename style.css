@@ -1,11 +1,13 @@
 .container-up {
   display: flex;
+  justify-content: space-between;
 }
 
 .container-down__text {
   display: flex;
   /*background-color: red;*/
   justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .container-down__pictures {
