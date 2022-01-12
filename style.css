@@ -1,0 +1,54 @@
+.container-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-down__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-down__pictures {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div > img {
+  border-radius: 30px;
+}
+
+div > img:hover {
+  opacity: 0.4;
+}
+
+.big-picture-1 {
+}
+
+body {
+  font-family: "Nunito";
+}
+
+.button {
+  height: 30px;
+  background-color: red;
+  border-radius: 0 20px 20px 20px;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+li {
+  display: inline;
+}
+
+.container-up__list--hover {
+  height: 40px;
+  background-color: white;
+  border-radius: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+
+.container-up__list--hover:hover {
+  background-color: red;
+}
