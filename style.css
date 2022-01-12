@@ -23,3 +23,17 @@ div > img:hover {
 
 .big-picture-1 {
 }
+
+body {
+  font-family: "Nunito";
+}
+
+.button {
+  height: "30px";
+  background-color: red;
+  border-radius: 0 20px 20px 20px;
+}
+
+.button:hover {
+  background-color: white;
+}
