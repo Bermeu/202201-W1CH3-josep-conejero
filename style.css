@@ -37,3 +37,18 @@ body {
 .button:hover {
   background-color: white;
 }
+
+li {
+  display: inline;
+}
+
+.container-up__list--hover {
+  height: 40px;
+  background-color: white;
+  border-radius: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+
+.container-up__list--hover:hover {
+  background-color: red;
+}
