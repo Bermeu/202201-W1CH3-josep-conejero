@@ -1,5 +1,15 @@
 .container-up {
+  display: flex;
 }
 
-.container-down {
+.container-down__text {
+  display: flex;
+  /*background-color: red;*/
+  justify-content: space-evenly;
+}
+
+.container-down__pictures {
+  display: flex;
+  /*background-color: green;*/
+  justify-content: space-evenly;
 }
